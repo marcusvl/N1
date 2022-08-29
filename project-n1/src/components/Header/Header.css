@@ -1,0 +1,70 @@
+.header-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  width: 320px;
+  height: 56px;
+  background: #ffffff;
+  flex: none;
+  align-self: stretch;
+}
+
+.header-box-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 148.67px;
+  height: 24px;
+}
+
+.header-box-menu-icon {
+  background: url("../../assets/icons/menu.svg");
+  width: 22px;
+  height: 22px;
+}
+
+.header-box-menu-image {
+  background: url("../../assets/icons/logo.svg");
+  width: 106.67px;
+  height: 24px;
+}
+
+.header-box-sign-in {
+  display: flex;
+  align-items: center;
+  height: 22px;
+}
+
+.header-box-sign-in-icon {
+  background: url("../../assets/icons/lupa.svg");
+  margin-right: 20px;
+  width: 22px;
+  height: 22px;
+}
+
+.header-box-sign-in-image {
+  background: url("../../assets/icons/cart.svg");
+  width: 24px;
+  height: 22px;
+  margin-right: 2px;
+}
+
+.header-box-sign-in-cart-total {
+  width: 16px;
+  height: 16px;
+  background: #e93a7d;
+  border-radius: 90px;
+}
+
+.header-box-sign-in-cart-total p {
+  line-height: 100%;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  padding: 2px;
+}

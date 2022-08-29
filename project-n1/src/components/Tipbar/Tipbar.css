@@ -1,0 +1,121 @@
+.tipbar-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  width: 100%;
+  height: 25px;
+  background: #e93a7d;
+}
+
+.tipbar-box-troca {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  width: 143px;
+}
+
+.tipbar-box-troca-icon {
+  background: url("../../assets/icons/frete.svg");
+  width: 13px;
+  height: 13px;
+  flex: none;
+}
+
+.tipbar-box-troca-paragraph {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 130%;
+  color: #ffffff;
+  flex: none;
+}
+
+.tipbar-box-frete {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  display: none;
+  width: 299px;
+  height: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.tipbar-box-frete-icon {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tipbar-box-frete-paragraph {
+  width: 271px;
+  height: 14px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 120%;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.tipbar-box-parcele {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  display: none;
+  width: 212px;
+  height: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.tipbar-box-parcele-icon {
+  width: 18px;
+  height: 18px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tipbar-box-parcele-paragraph {
+  width: 184px;
+  height: 14px;
+
+  /* Text/Small Bold */
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 120%;
+  /* or 14px */
+
+  /* Color - White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

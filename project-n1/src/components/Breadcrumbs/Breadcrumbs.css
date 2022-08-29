@@ -1,0 +1,45 @@
+.breadcrumps-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+  padding: 10px 20px;
+  width: 320px;
+  height: 36px;
+}
+
+.breadcrumps-box-home {
+  display: none;
+  width: 23.44px;
+  height: 20px;
+}
+
+.breadcrumps-box-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-family: "DM Sans";
+  font-size: 12px;
+}
+
+.breadcrumps-box-list-home {
+  height: 16px;
+  color: #8f8f9f;
+}
+
+.breadcrumps-box-list-tenis {
+  height: 16px;
+  color: #8f8f9f;
+}
+
+.breadcrumps-box-list-nike {
+  height: 16px;
+  color: #482be7;
+}
+
+.breadcrumps-box-list-separator {
+  font-weight: 700;
+  font-size: 20px;
+  color: #e93a7d;
+}

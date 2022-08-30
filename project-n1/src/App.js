@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Breadcrumbs from "./components/Breadcrumbs";
 import Footer from "./components/Footer";
 import Product from "./components/Product";
+import Vitrine from "./components/Vitrine";
 
 function App() {
   const [total, setTotal] = useState(0);
@@ -16,6 +17,7 @@ function App() {
       <Header total={total} />
       <Breadcrumbs />
       <Product total={total} setTotal={setTotal} />
+      <Vitrine />
       <Footer />
     </div>
   );

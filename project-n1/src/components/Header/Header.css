@@ -3,12 +3,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 20px;
-  width: 320px;
+  padding: 16px 0;
+  width: 90%;
   height: 56px;
   background: #ffffff;
-  flex: none;
-  align-self: stretch;
 }
 
 .header-box-menu {
@@ -33,15 +31,42 @@
   height: 24px;
 }
 
+.header-box-menu-categories {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 39px;
+}
+
+.header-box-menu-categories p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #1e0e62;
+}
+
 .header-box-sign-in {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   height: 22px;
+}
+
+.header-box-sign-in-input {
+  display: none;
 }
 
 .header-box-sign-in-icon {
   background: url("../../assets/icons/lupa.svg");
-  margin-right: 20px;
+  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+}
+
+.header-box-sign-in-person {
+  display: none;
   width: 22px;
   height: 22px;
 }
@@ -50,7 +75,6 @@
   background: url("../../assets/icons/cart.svg");
   width: 24px;
   height: 22px;
-  margin-right: 2px;
 }
 
 .header-box-sign-in-cart-total {
@@ -67,4 +91,38 @@
   margin: 0;
   color: white;
   padding: 2px;
+}
+
+@media (min-width: 768px) {
+  .header-box-menu-icon {
+    display: none;
+  }
+
+  .header-box-menu-categories {
+    display: flex;
+  }
+
+  .header-box-sign-in-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 20px;
+    gap: 10px;
+    width: 270px;
+    height: 34px;
+    border: 2px solid #d2d1d7;
+    border-radius: 100px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #d2d1d7;
+  }
+
+  .header-box-sign-in-person {
+    background: url("../../assets/icons/person.svg");
+    display: flex;
+  }
 }

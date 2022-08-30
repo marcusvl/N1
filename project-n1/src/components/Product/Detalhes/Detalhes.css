@@ -1,8 +1,7 @@
 .detalhes-box {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 20px;
+  align-items: center;
   gap: 20px;
   width: 320px;
   height: 510px;
@@ -61,7 +60,6 @@
 }
 
 .detalhes-box-preço-produto-info-gray {
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -78,7 +76,6 @@
 }
 
 .detalhes-box-preço-produto-parcela {
-  margin: 0;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -107,7 +104,6 @@
 }
 .detalhes-box-cor-produto-cores p {
   margin: 0;
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -158,7 +154,6 @@
 
 .detalhes-box-cor-produto-tamanho p {
   margin: 0;
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -174,7 +169,6 @@
   gap: 10px;
   width: 170px;
   height: 35px;
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -231,17 +225,30 @@
 .detalhes-box-compra-produto-icons-plus {
   background: url("../../../assets/icons/plus.svg");
   width: 24px;
-  height: 24px;
+  height: 25px;
   border: none;
 }
 
 .detalhes-box-compra-produto-quantity {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1e0e62;
+  border: 1px solid #d2d1d7;
+  border-radius: 10px;
+  width: 35px;
+  height: 30px;
+  justify-content: center;
 }
 
 .detalhes-box-compra-produto-icons-minus {
   background: url("../../../assets/icons/minus.svg");
   width: 24px;
-  height: 24px;
+  height: 25px;
   border: none;
 }
 
@@ -281,7 +288,7 @@
   flex-direction: row;
   align-items: center;
   padding: 10px 0px;
-  gap: 60px;
+  justify-content: space-between;
   width: 280px;
   height: 40px;
 }
@@ -305,7 +312,7 @@
   flex-direction: row;
   align-items: center;
   padding: 10px 0px;
-  gap: 60px;
+  justify-content: space-between;
   width: 280px;
   height: 40px;
 }
@@ -374,4 +381,7 @@
   background: url("../../../assets/icons/email.svg");
   width: 16px;
   height: 16px;
+}
+
+@media (min-width: 768px) {
 }

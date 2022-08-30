@@ -84,6 +84,11 @@ const Footer = () => {
                   <icon className="footer-box-footer-links-institucional-box1-second-title-icon" />
                 </div>
                 <div className="footer-box-footer-links-institucional-box1-main-title-text-line" />
+                <div className="footer-box-footer-links-institucional-box1-second-list">
+                  <p>Meus Dados</p>
+                  <p>Meus Pedidos</p>
+                  <p>Login</p>
+                </div>
               </div>
               <div className="footer-box-footer-links-institucional-box1-second">
                 <div className="footer-box-footer-links-institucional-box1-second-title">
@@ -93,6 +98,11 @@ const Footer = () => {
                   <icon className="footer-box-footer-links-institucional-box1-second-title-icon" />
                 </div>
                 <div className="footer-box-footer-links-institucional-box1-main-title-text-line" />
+                <div className="footer-box-footer-links-institucional-box1-second-list">
+                  <p>Política de privacidade</p>
+                  <p>Perguntas Frequentes</p>
+                  <p>Troca ou devolução</p>
+                </div>
               </div>
             </div>
             <div className="footer-box-footer-links-institucional-box2">
